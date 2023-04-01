@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(165, 40, 18);
+  color: rgb(24, 240, 16);
+  margin: 14% 7%;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+
+  font-family: "Papyrus";
+}
+
+a {
+  color: rgb(226, 230, 8);
+  text-decoration: none;
+  font-family: cursive;
+
+  padding: 15px;
+  border: 3px solid rgb(63, 230, 42);
+  margin: 15px;
+}
+
+a:hover {
+  color: rgb(0, 255, 34);
+  font-size: 15px;
+  background-color: rgb(40, 14, 187);
+  padding: 20px;
+}
+nav {
+  color: rgb(3, 146, 27);
+}
+header {
+  background-color: rgb(85, 64, 204);
+}
+main {
+  background-color: rgb(195, 105, 255);
+}
+
+section {
+  background-color: indigo;
+}
+footer {
+  background-color: rgb(255, 72, 0);
+  text-align: center;
+  padding-top: 20px;
+}
+div.funfact {
+  text-align: center;
+  color: rgb(158, 105, 255);
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    display: none;
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
